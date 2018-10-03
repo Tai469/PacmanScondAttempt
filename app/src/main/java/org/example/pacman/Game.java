@@ -30,6 +30,8 @@ public class Game
     private GameView gameView;
     private int h,w; //height and width of screen
 
+    public boolean running;
+
     //constructor
     public Game(Context context, TextView view)
     {
